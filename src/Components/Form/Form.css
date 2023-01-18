@@ -1,0 +1,68 @@
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.searchbox {
+  display: flex;
+  width: 500px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchbox input {
+  flex: 1;
+  padding: 15px 20px;
+  font-size: 1.1em;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 19%);
+}
+
+.searchbox button {
+  padding-right: 10px;
+  background-color: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 4px 2px 6px rgb(0 0 0 / 19%);
+  border: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.searchbox button span {
+  margin-left: 5px;
+  padding: 12px 35px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  background-color: #f76c6c;
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgb(0 0 0 / 19%);
+}
+
+.searchbox button:hover span {
+  background-color: #F54E59;
+}
+
+.member-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.member-item {
+  text-align: center;
+  flex-basis: 33.33%;
+  margin-bottom: 10px;
+}
